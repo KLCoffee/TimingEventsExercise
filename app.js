@@ -37,17 +37,23 @@ clearInterval(count)
 
 // Bonus
 // 4a
-//  let num = 120000;
- 
-   
-//    const clock = document.querySelector(`#countdown`);
-//    const p3 = document.createElement(`p`);
-//    p3.innerText = setInterval(() => {
-//    if (num > 0){ append 
-//        } else if {
-//        clearInterval(clock);
-//    }
-//    num --;
-//      }, 1);
+// let seconds = 0
+// let minutes = 2
+
+// const countdown = setInterval(() => {
+//     if (seconds / 60 === 1){
+//         seconds = 0;
+//         minutes--;
+        
+//         if(minutes / 60 === 1){
+//             minutes = 0;
+//         }
+//     }    
+//     minutes--;
+// }, 5);
+    
+//     const watch = document.getElementById(`countdown`);
+//     const p4 = document.createElement(`p`);
+//     p4.innerText = minutes +`:`+ seconds;
    
      
